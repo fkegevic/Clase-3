@@ -1,0 +1,43 @@
+/*Definimos las clases usadas en html*/
+
+.total{
+  width: 100%;
+}
+.medio{
+  width: 50%;
+  float:left;
+}
+
+.verde{
+  background: green;
+}
+
+.rojo{
+  background: red;
+}
+
+/*Cambiamos márgenes de la página*/
+
+*{
+  margin:0;
+  padding:0;
+}
+
+.text-center{
+  text-align:center;
+}
+
+main{
+  width:70%;
+  float:left;
+}
+
+aside{
+  width:30%;
+  float:left;
+}
+
+/*Cuando escribo dos elementos sin coma, me refiero al elemento B que está contenido en A. Img contenido en aside*/
+aside img{
+  max-width:30%;
+}
